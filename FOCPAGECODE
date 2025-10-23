@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4th Annual Family Office Connect 2025</title>
+
+  <!-- SEO / Social -->
+  <meta name="description" content="Family Office Connect – South Florida Social, Nov 10–11, 2025 at The Boca Raton. Networking, activities, and more." />
+  <meta property="og:title" content="4th Annual Family Office Connect 2025" />
+  <meta property="og:description" content="The Boca Raton • Nov 10–11, 2025 • South Florida Social" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1c3163" />
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --foc-primary:#1c3163; /* deep navy */
+      --foc-secondary:#6f8ca4; /* steel blue */
+      --foc-accent:#b79347; /* gold */
+      --foc-sand:#d4d3ce; /* warm sand */
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue','Noto Sans',Ubuntu,'Apple Color Emoji','Segoe UI Emoji',sans-serif}
+    .font-heading{font-family:'Playfair Display',serif}
+    .foc-primary{color:var(--foc-primary)}
+    .foc-secondary{color:var(--foc-secondary)}
+    .foc-accent{color:var(--foc-accent)}
+    .foc-bg-primary{background-color:var(--foc-primary)}
+    .card-hover{transition:transform .3s ease, box-shadow .3s ease}
+    .card-hover:hover{transform:translateY(-4px); box-shadow:0 12px 30px -10px rgba(2,8,20,.2)}
+    .agenda-item{border-left:4px solid var(--foc-secondary); transition:all .25s ease}
+    .agenda-item:hover{border-left-color:var(--foc-primary); background-color:var(--foc-sand)}
+    /* HERO with royalty-free coastal image (Pexels) */
+    .hero{
+      position:relative;
+      background-image:url('https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=2400');
+      background-size:cover;
+      background-position:center;
+      isolation:isolate;
+    }
+    .hero::before{
+      content:"";
+      position:absolute; inset:0;
+      background:linear-gradient(120deg, rgba(28,49,99,.75), rgba(111,140,164,.55));
+      z-index:0;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header / Nav -->
+  <header class="bg-white/70 backdrop-blur supports-[backdrop-filter]:backdrop-blur sticky top-0 z-40 border-b border-gray-200">
+    <nav class="container mx-auto max-w-6xl px-6 py-4" aria-label="Primary">
+      <div class="flex items-center justify-between">
+        <!-- Left: brand text only (logo is shown above in hero) -->
+        <div class="flex items-center gap-3">
+          <span class="text-2xl font-heading font-extrabold foc-primary">Family Office Connect</span>
+          <span class="text-lg text-gray-600">– South Florida Social</span>
+        </div>
+        <!-- Right: nav -->
+        <div class="hidden md:flex items-center gap-6">
+          <a href="#about" class="hover:text-gray-700">About</a>
+          <a href="#agenda" class="hover:text-gray-700">Agenda</a>
+          <a href="#attendees" class="hover:text-gray-700">Attendees</a>
+          <a href="#sponsors" class="hover:text-gray-700">Sponsors</a>
+          <a href="#contacts" class="hover:text-gray-700">Key Contacts</a>
+          <a href="#venue" class="hover:text-gray-700">Venue</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO with LOGO ABOVE TITLE -->
+  <section class="hero text-white pt-16 pb-20 md:pt-20 md:pb-28">
+    <div class="container relative z-10 mx-auto max-w-6xl px-6 text-center">
+      <!-- LOGO BLOCK (above the title) -->
+      <div class="mx-auto mb-6 md:mb-8 inline-block">
+        <!-- Recommended: place your file at assets/foc-logo.svg -->
+        <img
+          src="assets/foc-logo.svg"
+          alt="FOC — Family Office Connect logo"
+          width="180"
+          height="180"
+          class="mx-auto h-20 w-auto md:h-24"
+          loading="eager"
+          decoding="async"
+          onerror="this.src='Untitled design (2).svg'; this.onerror=null;"
+        />
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-extrabold font-heading drop-shadow-sm">
+        4th Annual<br class="hidden md:block"/> Family Office Connect
+      </h1>
+      <p class="mt-6 text-2xl md:text-3xl font-semibold text-[color:var(--foc-sand)]">November 10 &amp; 11, 2025</p>
+      <p class="mt-2 text-lg md:text-xl text-[color:var(--foc-sand)]">The Boca Raton Resort and Club • Boca Raton, Florida</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto max-w-5xl px-6">
+      <div class="text-center mb-8">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-4 foc-secondary">About the Event</h2>
+        <p class="text-lg md:text-xl text-gray-600">
+          Join us for our Fourth Annual Family Office Connect – South Florida Social. This informal gathering of senior
+          family office professionals and family members offers a unique opportunity to build meaningful relationships
+          with key individuals doing direct investments for family offices. Sponsors cover all meals and activities—
+          including pickleball, happy hour, dinner, poker night, and an offshore fishing trip. Attendees are responsible
+          for their own travel and accommodations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENDA -->
+  <section id="agenda" class="py-16" style="background-color: var(--foc-sand);">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center mb-8">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-2 foc-secondary">Agenda</h2>
+      </div>
+
+      <!-- Day 1 -->
+      <div class="mb-12">
+        <div class="foc-bg-primary text-white p-6 rounded-t-lg">
+          <h3 class="text-2xl font-bold">Monday, November 10, 2025 – Day 1</h3>
+        </div>
+        <div class="bg-white rounded-b-lg shadow p-6">
+          <div class="space-y-4">
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">2:00 PM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">2nd Annual FOC Pickleball Classic</h4>
+                  <p class="text-gray-600 text-base">Racquet Club - South of the Golf Club and Pro Shop (24) on Boca Raton Resort Map</p>
+                  <p class="text-base text-red-600 mt-1"><strong>Attire:</strong> Flat-soled shoes designed for soft tennis courts required</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">6:00 PM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Cocktails</h4>
+                  <p class="text-gray-600 text-base">Westside of the Cloister, near the golf course (14) on Boca Raton Resort Map</p>
+                  <p class="text-base text-red-600 mt-1"><strong>Attire:</strong> Evening business attire required</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">7:00 PM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Dinner</h4>
+                  <p class="text-gray-600 text-base">Westside of the Cloister, near the golf course (14) on Boca Raton Resort Map</p>
+                  <p class="text-base text-red-600 mt-1"><strong>Attire:</strong> Evening business attire required</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">9:00 PM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Nightcap &amp; Poker Social</h4>
+                  <p class="text-gray-600 text-base">Mizner Room - Eastside of the Cloister, near Sadelle's (27)</p>
+                  <p class="text-base text-gray-500 mt-1">Cocktails, poker, and blackjack</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="mb-12">
+        <div class="foc-bg-primary text-white p-6 rounded-t-lg">
+          <h3 class="text-2xl font-bold">Tuesday, November 11, 2025 – Day 2</h3>
+        </div>
+        <div class="bg-white rounded-b-lg shadow p-6">
+          <div class="space-y-4">
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">7:45 AM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Palm Breeze Charter – Arrival</h4>
+                  <p class="text-gray-600 text-base">Marina, Eastside of the Yacht Club (22)</p>
+                  <p class="text-base text-red-600 mt-1"><strong>Must arrive by 7:45 AM</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">8:00 AM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Palm Breeze Charter – Departure</h4>
+                  <p class="text-gray-600 text-base">On-board breakfast, snacks and drinks provided</p>
+                  <p class="text-base text-red-600 mt-1"><strong>Attire:</strong> Casual resort attire - shorts, swimwear, non-slip boat shoes, sandals, or tennis shoes</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="agenda-item pl-6 py-4 rounded">
+              <div class="flex flex-col md:flex-row md:items-center">
+                <div class="font-semibold text-lg mb-2 md:mb-0 md:w-32 foc-secondary">12:30 PM</div>
+                <div class="flex-1">
+                  <h4 class="font-semibold text-lg">Lunch at Sadelle's</h4>
+                  <p class="text-gray-600 text-base">Eastside of the Cloister, near Cloister Garden (12)</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ATTENDEES -->
+  <section id="attendees" class="py-16 bg-white">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-2 foc-secondary">Attendees</h2>
+        <p class="text-lg text-gray-600">Connect with leading family office professionals and industry experts</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Sample cards -->
+        <div class="rounded-lg p-6 card-hover" style="background-color: var(--foc-sand);">
+          <div class="flex items-start gap-4">
+            <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl">AA</div>
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-800">Akhil Agrawal</h3>
+              <p class="foc-secondary text-base mb-2">Litera Capital</p>
+              <p class="text-gray-600 text-base">
+                <a class="hover:opacity-80" style="color: var(--foc-accent);" href="mailto:Akhil@literacapital.com">Akhil@literacapital.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-lg p-6 card-hover" style="background-color: var(--foc-sand);">
+          <div class="flex items-start gap-4">
+            <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl">DB</div>
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-800">Daniel Baron</h3>
+              <p class="foc-secondary text-base mb-2">One Of Us</p>
+              <p class="text-gray-600 text-base">
+                <a class="hover:opacity-80" style="color: var(--foc-accent);" href="mailto:Db10655@outlook.com">Db10655@outlook.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-lg p-6 card-hover" style="background-color: var(--foc-sand);">
+          <div class="flex items-start gap-4">
+            <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl">IB</div>
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-800">Isaac Blake</h3>
+              <p class="foc-secondary text-base mb-2">KSV Global</p>
+              <p class="text-gray-600 text-base">
+                <a class="hover:opacity-80" style="color: var(--foc-accent);" href="mailto:Iblake@ksvglobal.com">Iblake@ksvglobal.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <button id="showMoreBtn" class="foc-bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90">
+          View All Attendees
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPONSORS -->
+  <section id="sponsors" class="py-16" style="background-color: var(--foc-sand);">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-2 foc-secondary">Our Sponsors</h2>
+        <p class="text-lg text-gray-600">Thank you to our valued partners who make this event possible</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-lg p-8 shadow card-hover text-center">
+          <div class="w-48 h-32 mx-auto mb-4 flex items-center justify-center">
+            <img src="https://aspenchamber.org/sites/default/files/styles/members_teaser/public/venue-images/cab90daa-71f6-44fa-a72d-25d6940e76e4.webp"
+                 alt="Greenberg Traurig logo"
+                 class="max-w-full max-h-full object-contain"
+                 onerror="this.style.display='none'">
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">
+            <a href="https://www.gtlaw.com/" target="_blank" rel="noopener" class="hover:opacity-80" style="color:var(--foc-accent);">Greenberg Traurig</a>
+          </h4>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 shadow card-hover text-center">
+          <div class="w-48 h-32 mx-auto mb-4 flex items-center justify-center">
+            <img src="https://emigrantcapital.com/wp-content/uploads/2022/01/EC_Logo_Horizontal_Main_RGB.png"
+                 alt="Emigrant Capital logo"
+                 class="max-w-full max-h-full object-contain"
+                 onerror="this.style.display='none'">
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">
+            <a href="https://emigrantcapital.com/" target="_blank" rel="noopener" class="hover:opacity-80" style="color:var(--foc-accent);">Emigrant Capital</a>
+          </h4>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 shadow card-hover text-center">
+          <div class="w-48 h-32 mx-auto mb-4 flex items-center justify-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nlgB5b25hRKwdU99P45zyFad2VI3tu6oJw&s"
+                 alt="CohnReznick logo"
+                 class="max-w-full max-h-full object-contain"
+                 onerror="this.style.display='none'">
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">
+            <a href="https://www.cohnreznick.com/" target="_blank" rel="noopener" class="hover:opacity-80" style="color:var(--foc-accent);">CohnReznick</a>
+          </h4>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 shadow card-hover text-center">
+          <div class="w-48 h-32 mx-auto mb-4 flex items-center justify-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx3nn-1-Vr2DfCD09V_1B1daZmMRIu5Jw9g&s"
+                 alt="MAI Capital logo"
+                 class="max-w-full max-h-full object-contain"
+                 onerror="this.style.display='none'">
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">
+            <a href="https://mai.capital/" target="_blank" rel="noopener" class="hover:opacity-80" style="color:var(--foc-accent);">MAI Capital</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="py-16 bg-white">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-2 foc-secondary">Key Contacts</h2>
+        <p class="text-lg text-gray-600">For general inquiries about the Family Office Connect event</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div class="bg-white rounded-lg p-6 shadow card-hover text-center">
+          <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl mx-auto mb-4">SJ</div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-1">Stanley "Stash" Jacobs</h3>
+          <p class="foc-secondary mb-3">Shareholder</p>
+          <p class="text-sm text-gray-700">📧 <a href="mailto:Jacobss@gtlaw.com" class="hover:opacity-80" style="color:var(--foc-accent);">Jacobss@gtlaw.com</a></p>
+          <p class="text-sm text-gray-700">📞 <a href="tel:+15613020883" class="hover:opacity-80" style="color:var(--foc-accent);">+1 561.302.0883</a></p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow card-hover text-center">
+          <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl mx-auto mb-4">MG</div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-1">Margie Garcia</h3>
+          <p class="foc-secondary mb-3">Marketing Manager</p>
+          <p class="text-sm text-gray-700">📧 <a href="mailto:Garciama@gtlaw.com" class="hover:opacity-80" style="color:var(--foc-accent);">Garciama@gtlaw.com</a></p>
+          <p class="text-sm text-gray-700">📞 <a href="tel:+19542982945" class="hover:opacity-80" style="color:var(--foc-accent);">+1 954.298.2945</a></p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow card-hover text-center">
+          <div class="w-16 h-16 foc-bg-primary rounded-full grid place-items-center text-white font-bold text-xl mx-auto mb-4">MR</div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-1">Mariana Restrepo</h3>
+          <p class="foc-secondary mb-3">Marketing Coordinator</p>
+          <p class="text-sm text-gray-700">📧 <a href="mailto:Restrepoma@gtlaw.com" class="hover:opacity-80" style="color:var(--foc-accent);">Restrepoma@gtlaw.com</a></p>
+          <p class="text-sm text-gray-700">📞 <a href="tel:+17864879316" class="hover:opacity-80" style="color:var(--foc-accent);">+1 786.487.9316</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENUE -->
+  <section id="venue" class="py-16" style="background-color: var(--foc-sand);">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-2 foc-secondary">Venue</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h3 class="text-2xl font-heading font-bold text-gray-800 mb-4">
+            Welcome to
+            <a href="https://www.thebocaraton.com/" target="_blank" rel="noopener" class="hover:opacity-80" style="color:var(--foc-accent);">The Boca Raton</a>
+          </h3>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-center"><span class="text-blue-800 mr-3" aria-hidden="true">📍</span>501 E Camino Real, Boca Raton, FL 33432</li>
+            <li class="flex items-center"><span class="text-blue-800 mr-3" aria-hidden="true">🚗</span>Complimentary valet parking</li>
+            <li class="flex items-center"><span class="text-blue-800 mr-3" aria-hidden="true">✈️</span>30 minutes from Fort Lauderdale Airport</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-100 rounded-lg p-8">
+          <div class="text-center mb-6">
+            <div class="text-6xl mb-4" aria-hidden="true">🏖️</div>
+            <h4 class="text-xl font-semibold font-heading">Resort Amenities</h4>
+          </div>
+          <div class="text-gray-700 space-y-2">
+            <p>200 Lake and Oceanfront Acres</p>
+            <p>Five Distinct Hotels: Yacht Club, Tower, Bungalows, Cloister, and Forbes Five-Star Beach Club</p>
+            <p>Half a Mile of Private Beach and 8 Sparkling Pools</p>
+            <p>Over 15 Delectable Dining Destinations</p>
+            <p>Forbes 5-Star Spa Palmera, Championship-Level Golf Course, Full Service Racquet Club</p>
+            <p class="font-semibold">&amp; So Much More…</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto max-w-6xl px-6">
+      <div class="text-center">
+        <h3 class="text-xl font-bold mb-3">Family Office Connect – South Florida Social</h3>
+        <div class="space-y-1 text-gray-300">
+          <p>November 10 &amp; 11, 2025</p>
+          <p>The Boca Raton Resort and Club</p>
+          <p>Boca Raton, Florida</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+        <p>&copy; 2025 Family Office Connect. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Smooth scroll for same-page anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const id = a.getAttribute('href');
+        if(id.length>1){
+          const target = document.querySelector(id);
+          if(target){
+            e.preventDefault();
+            target.scrollIntoView({behavior:'smooth', block:'start'});
+          }
+        }
+      })
+    });
+
+    // Attendees modal
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    if (showMoreBtn) showMoreBtn.addEventListener('click', openAttendeesModal);
+
+    function openAttendeesModal(){
+      const modal = document.createElement('div');
+      modal.className = 'fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4';
+      modal.innerHTML = `
+        <div class="bg-white rounded-lg p-8 max-w-6xl w-full max-h-[90vh] overflow-y-auto">
+          <div class="flex justify-between items-center mb-6">
+            <h3 class="text-3xl font-bold">All Attendees</h3>
+            <button type="button" aria-label="Close attendees list" class="text-gray-500 hover:text-gray-700 text-2xl" onclick="closeAttendeesModal()">&times;</button>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            ${generateAllAttendeeCards()}
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+    }
+
+    function closeAttendeesModal(){
+      const modal = document.querySelector('.fixed.inset-0.bg-black\\/50');
+      if(modal) modal.remove();
+    }
+
+    function generateAllAttendeeCards(){
+      const attendees = [
+        {name:"Akhil Agrawal",company:"Litera Capital",email:"Akhil@literacapital.com"},
+        {name:"Daniel Baron",company:"One Of Us",email:"Db10655@outlook.com"},
+        {name:"Isaac Blake",company:"KSV Global",email:"Iblake@ksvglobal.com"},
+        {name:"Jacob Brodie",company:"Brodie Generational Capital Partners",email:"Jacob.brodie@bgencap.com"},
+        {name:"James Carey",company:"Next Sparc",email:"James.carey@nextsparc.com"},
+        {name:"Ernesto Carrizosa",company:"WM Partners LP",email:"Ec@wmplp.com"},
+        {name:"Pavel Chernyshov",company:"Arkview Capital",email:"Pchernyshov@arkviewcapital.com"},
+        {name:"Claudine Cohen",company:"Cohnreznick",email:"Claudine.cohen@cohnreznick.com"},
+        {name:"Teddy Cummings",company:"Cockrell Interests",email:"Tcummings@cockrell.com"},
+        {name:"Desiree Destefano",company:"Mariposa Capital",email:"Ddestefano@marcapllc.com"},
+        {name:"Joseph Elmasri",company:"Aspen Highland Partners",email:"Jelmasri@aspenhighlandpartners.com"},
+        {name:"Jarret Fass",company:"Pierpoint Capital",email:"Jfass@pierpointcap.com"},
+        {name:"Louis Feinberg",company:"Boxcar Partners",email:"Lfeinberg@boxcarpartners.com"},
+        {name:"Graham Gallagher",company:"Nawthorne Capital",email:"Graham.gallagher@nawthorne.com"},
+        {name:"Lorne Goldberg",company:"West Coast Capital",email:"West Coast Capital"},
+        {name:"Sam Goodman",company:"Five Points Family Ventures",email:"Sgoodman@fivepointsfv.com"},
+        {name:"Mauricio Gutierrez",company:"Forge52",email:"Mgutierrez@forge52.com"},
+        {name:"Kristina Heinze",company:"Halstatt",email:"Kristinaheinze4@gmail.com"},
+        {name:"Orlando Hernandez",company:"OHC Family Office",email:"Orlando@ohc.aero"},
+        {name:"Laura Hickman",company:"MAI Capital",email:"Laura.hickman@mai.capital"},
+        {name:"Brandon Hinkle",company:"Krisdan Management",email:"Brandon.hinkle@krisdan.com"},
+        {name:"Adam Hirsch",company:"Adam Charles Enterprises",email:"Achirsch@gmail.com"},
+        {name:"John Hoover",company:"Chasbro",email:"Johnhoover@chasbro.com"},
+        {name:"Stash Jacobs",company:"Greenberg Traurig",email:"Jacobss@gtlaw.com"},
+        {name:"Brad Jones",company:"Standard Normal",email:"Bradley.jones@standardnormal.com"},
+        {name:"Liza Kahn-Garber",company:"Cohnreznick",email:"Liza.kahn-garber@cohnreznick.com"},
+        {name:"Sam Kelly",company:"Sogi Capital",email:"Skelly@sogicapital.com"},
+        {name:"Daniel Kesner",company:"Cohnreznick",email:"Daniel.kesner@cohnreznick.com"},
+        {name:"Arthur (AD) King",company:"Cercano",email:"Adk@cercanolp.com"},
+        {name:"Warren Lawson",company:"Osprey Island",email:"Warren@osprey-island.com"},
+        {name:"Albert Luk",company:"Brodie Generational Capital Partner",email:"Albert.luk@bgencap.com"},
+        {name:"Christian Maccarron",company:"Taubman Capital Management",email:"Cmaccarron@taubmancapital.com"},
+        {name:"Rhett Madison",company:"Jordan Family Office",email:"Rmadison@tjfo.com"},
+        {name:"Joan Malloy",company:"MAI Capital",email:"Joan.malloy@mai.capital"},
+        {name:"Bruce March",company:"Greenberg Traurig",email:"Marchb@gtlaw.com"},
+        {name:"Michael Mcginn",company:"Prince Capital Partners",email:"Mmcginn@princecp.com"},
+        {name:"Peter Mcnitt",company:"Tannenbaum Capital Group",email:"Pmcnitt@thetcg.com"},
+        {name:"Scott Medley",company:"EPIC Insurance Brokers and Consultants",email:"Scott.medley@epicbrokers.com"},
+        {name:"Zachary Mosseri",company:"Catal Group",email:"Zachary@catalgroup.com"},
+        {name:"Emma Napper",company:"Bayshore Capital",email:"Enapper@bayshorecap.com"},
+        {name:"Alex Otero",company:"Oakman",email:"Aotero@oakman.com"},
+        {name:"Daniel Palacios",company:"Ensyl Capital",email:"Daniel@ensylcapital.com"},
+        {name:"Ryan Rafeh",company:"Verlinvest",email:"Rrafeh@verlinvest.com"},
+        {name:"Rick Roma",company:"Interoceanic",email:"R.roma@ioccorp.com"},
+        {name:"Rafael Romero",company:"Emigrant Capital",email:"Romeror@emigrant.com"},
+        {name:"John Rompon",company:"Prospect Park",email:"Jr@prospectpark.co"},
+        {name:"Meredith Rovelli Bollman",company:"Brodie Generational Capital Partners",email:"Meredith.bollman@bgencap.com"},
+        {name:"Mark Selinger",company:"Greenberg Traurig",email:"Mark.selinger@gtlaw.com"},
+        {name:"Mason Slaine",company:"Slaine Family Office",email:"Mslaine@icloud.com"},
+        {name:"Adam Stulberger",company:"Coventry Bay Group",email:"Adam@coventrybay.com"},
+        {name:"Juan Tagle",company:"Palm Beach Capital",email:"Juanctagle10@gmail.com"},
+        {name:"David Weiss",company:"Cloud Investment Partners",email:"Dweiss@cloudinvestmentpartners.com"},
+        {name:"Matt Weiss",company:"Circuit",email:"Matt.weiss@circuit.ai"},
+        {name:"Chris Yamamoto",company:"Event Capital Strategies",email:"Chris@ecscap.com"},
+      ];
+      return attendees.map(a=>{
+        const initials = a.name.split(' ').map(n=>n[0]).join('').slice(0,3).toUpperCase();
+        return `
+          <div class="bg-gray-50 rounded-lg p-4">
+            <div class="flex items-start gap-3">
+              <div class="w-12 h-12 bg-blue-800 rounded-full grid place-items-center text-white font-bold text-sm">${initials}</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="font-semibold text-gray-800 text-sm">${a.name}</h4>
+                <p class="text-blue-700 text-xs mb-1">${a.company}</p>
+                <p class="text-gray-600 text-xs truncate"><a href="mailto:${a.email}" class="hover:opacity-80" style="color:var(--foc-accent);">${a.email}</a></p>
+              </div>
+            </div>
+          </div>`;
+      }).join('');
+    }
+  </script>
+</body>
+</html>
